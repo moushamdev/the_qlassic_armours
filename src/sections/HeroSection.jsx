@@ -67,24 +67,24 @@ const HeroSection = () => {
         {isTablet ? (
           <>
             {isMobile && (
-              <img
-                src="/images/hero-bg.png"
-                className="absolute bottom-40 size-full object-cover"
-              />
-            )}
-            <img
-              src="/images/hero-img.png"
-              className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto"
-            />
+<img
+  src={import.meta.env.BASE_URL + "images/hero-bg.png"}
+  className="absolute bottom-40 size-full object-cover"
+/>
+
+<img
+  src={import.meta.env.BASE_URL + "images/hero-img.png"}
+  className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto"
+/>
           </>
         ) : (
-          <video
-            src="/videos/hero-bg.mp4"
-            autoPlay
-            muted
-            playsInline
-            className="absolute inset-0 w-full h-full object-cover"
-          />
+<video
+  src={import.meta.env.BASE_URL + "videos/hero-bg.mp4"}
+  autoPlay
+  muted
+  playsInline
+  className="absolute inset-0 w-full h-full object-cover"
+/>
         )}
         <div className="hero-content opacity-0">
           <div className="overflow-hidden">
