@@ -15,27 +15,28 @@ const MessageSection = () => {
       linesClass: "paragraph-line",
     });
 
-    gsap.to(firstMsgSplit.words, {
-      color: "#faeade",
-      ease: "power1.in",
-      stagger: 1,
-      scrollTrigger: {
-        trigger: ".message-content",
-        start: "top center",
-        end: "30% center",
-        scrub: true,
-      },
-    });
-    gsap.to(secMsgSplit.words, {
-      color: "#faeade",
-      ease: "power1.in",
-      stagger: 1,
-      scrollTrigger: {
-        trigger: ".second-message",
-        start: "top center",
-        end: "bottom center",
-        scrub: true,
-      },
+gsap.to(firstMsgSplit.words, {
+  color: "#d7eef4",
+  ease: "power1.in",
+  stagger: 1,
+  scrollTrigger: {
+    trigger: ".message-content",
+    start: "top center",
+    end: "30% center",
+    scrub: true,
+  },
+});
+
+gsap.to(secMsgSplit.words, {
+  color: "#d7eef4",
+  ease: "power1.in",
+  stagger: 1,
+  scrollTrigger: {
+    trigger: ".second-message",
+    start: "top center",
+    end: "bottom center",
+    scrub: true,
+  },
     });
 
     const revealTl = gsap.timeline({
