@@ -89,7 +89,7 @@ const HeroSection = () => {
         )}
         <div className="hero-content opacity-0">
           <div className="overflow-hidden">
-            <h1 className="hero-title">Freaking Delicious</h1>
+            <h1 className="hero-title">Effortless Style</h1>
           </div>
           <div
             style={{
@@ -98,17 +98,17 @@ const HeroSection = () => {
             className="hero-text-scroll"
           >
             <div className="hero-subtitle">
-              <h1>Protein + Caffine </h1>
+              <h1>Custom + Qlassic</h1>
             </div>
           </div>
 
           <h2>
-            Live life to the fullest  with SPYLT: Shatter boredom and embrace
-            your inner kid with every deliciously smooth chug.
+           Live life with confidence through Qlassic Armor: Express
+your unique style with every timeless design.
           </h2>
 
           <div className="hero-button">
-            <p>Chug a SPYLT</p>
+            <p>Wear Qlassic</p>
           </div>
         </div>
       </div>
