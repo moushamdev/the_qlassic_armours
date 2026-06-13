@@ -1,42 +1,42 @@
 const flavorlists = [
   {
-    name: "Chocolate Milk",
+    name: "Classic Cotton",
     color: "brown",
     rotation: "md:rotate-[-8deg] rotate-0",
   },
   {
-    name: "Stawberry Milk",
+    name: "Streetwear Fit",
     color: "red",
     rotation: "md:rotate-[8deg] rotate-0",
   },
   {
-    name: "Cookies & Cream",
+    name: "Casual & Linen",
     color: "blue",
     rotation: "md:rotate-[-8deg] rotate-0",
   },
   {
-    name: "Peanut Butter Chocolate",
+    name: "Signature Cotton Wear",
     color: "orange",
     rotation: "md:rotate-[8deg] rotate-0",
   },
   {
-    name: "Vanilla Milkshake",
+    name: "Premium Knitwear",
     color: "white",
     rotation: "md:rotate-[-8deg] rotate-0",
   },
   {
-    name: "Max Chocolate Milk",
+    name: "Elite Cotton Wear",
     color: "black",
     rotation: "md:rotate-[8deg] rotate-0",
   },
 ];
 
 const nutrientLists = [
-  { label: "Potassium", amount: "245mg" },
-  { label: "Calcium", amount: "500mg" },
-  { label: "Vitamin A", amount: "176mcg" },
-  { label: "Vitamin D", amount: "5mcg" },
-  { label: "Iron", amount: "1mg" },
+  { label: "Designs", amount: "245+" },
+  { label: "Orders", amount: "500+" },
+  { label: "Clients", amount: "176+" },
+  { label: "Collections", amount: "5+" },
+  { label: "Studios", amount: "1" },
 ];
 
 const cards = [
